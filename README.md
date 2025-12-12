@@ -7,7 +7,7 @@
 This project implements a Retrieval-Augmented Generation (RAG) system using:
 * A cleaned CSV dataset (`etl_cleaned_dataset.csv`)
 * A film box-office PDF:
-[The determinants of box office performance in the film industry revisited](https://www.researchgate.net/publication/281730174_The_determinants_of_box_office_performance_in_the_film_industry_revisited")
+[The determinants of box office performance in the film industry revisited (Smit, 2013)](https://www.researchgate.net/publication/281730174_The_determinants_of_box_office_performance_in_the_film_industry_revisited")
 
 The system performs:
 * Document ingestion and chunking
