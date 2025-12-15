@@ -123,10 +123,14 @@ curl -X POST http://127.0.0.1:8000/api/ask \
 
 Example JSON response:
 ```bash
-  "answer": "Based on the context ...",
+{
+  "answer": "According to the dataset, the movie with the highest IMDb rating is listed in Source 1.",
   "sources": [
-    { "id": "file.pdf", "page": 7, "snippet": "..." },
-    { "id": "etl_cleaned_dataset.csv", "snippet": "..." }
+    {
+      "id": "etl_cleaned_dataset.csv",
+      "page": null,
+      "snippet": "title: attack on titan the movie: the last attack, imdb_rating: 9.2, ..."
+    }
   ]
 }
 ```
