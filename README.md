@@ -37,6 +37,7 @@ ds-final-project-nyn/
 ├── data/
 │   ├── etl_cleaned_dataset.csv
 │   └── additional_documents/
+│       └── The_determinants_of_box_office_performance_in_the_.pdf
 │
 ├── outputs/                       
 │   ├── ingested_documents.jsonl
