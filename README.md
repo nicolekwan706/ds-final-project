@@ -44,7 +44,7 @@ ds-final-project-nyn/
 │   ├── embeddings.npy
 │   ├── faiss_index.bin
 │   ├── texts.pkl
-│   ├── metadatas.pkl
+│   └── metadatas.pkl
 │
 ├── ui/
 │   └── chat.html
@@ -78,7 +78,7 @@ ds-final-project-nyn/
 ├── rag_pipeline/
 ├── data/
 ├── ui/
-├── outputs/   # (optional – original artifacts)
+├── outputs/
 └── ...
 ```
 ---
