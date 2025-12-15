@@ -59,28 +59,28 @@ ds-final-project-nyn/
 ---
 ## 3. Before Running: Move Required Output Files
 
-Because the RAG pipeline was originally developed in Google Colab, it uses a flat directory structure.
-To run the API successfully, please move all files inside `outputs` into the project root, so the folder looks like:
+All RAG pipeline output artifacts must be placed in the **api/** folder, because `app.py` loads them from its working directory.
+
+Please move all files from **outputs/** into **api/** so the structure becomes:
 
 ```bash
 ds-final-project-nyn/
 │
-├── app.py
-├── ingested_documents.jsonl
-├── embeddings.npy
-├── faiss_index.bin
-├── texts.pkl
-├── metadatas.pkl
+├── api/
+│   ├── app.py
+│   ├── ingested_documents.jsonl
+│   ├── embeddings.npy
+│   ├── faiss_index.bin
+│   ├── texts.pkl
+│   ├── metadatas.pkl
+│   └── requirements.txt
 │
 ├── rag_pipeline/
 ├── data/
 ├── ui/
-├── api/
+├── outputs/   # (optional – original artifacts)
 └── ...
 ```
-
-No path changes are required. The system expects these artifacts to be in the project root.
-
 ---
 ## 4. How to Run
 
