@@ -1,7 +1,4 @@
 # Movie RAG System
-
-**Group members:** Nishita Koya (vfj8ba), Yuhan Liu (yl7gk), Nicole Kwan (ypt2vj)
-
 ---
 ## 1. Overview
 This project implements a Retrieval-Augmented Generation (RAG) system using:
